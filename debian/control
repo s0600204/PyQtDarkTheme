@@ -1,0 +1,24 @@
+Source: pyqtdarktheme
+Section: python
+Priority: optional
+Maintainer: s0600204 <dev@s0600204>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ pybuild-plugin-pyproject,
+ python3-all,
+ python3-darkdetect,
+ python3-poetry-core,
+ python3-setuptools
+Standards-Version: 4.6.2
+Homepage: https://github.com/5yutan5/PyQtDarkTheme
+
+Package: python3-pyqtdarktheme
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends}
+Description: A flat dark theme for PySide and PyQt
+ PyQtDarkTheme applies a flat dark theme to QtWidgets application. There's a
+ light theme too. Color balanced from the dark theme for easy viewing in
+ daylight.
