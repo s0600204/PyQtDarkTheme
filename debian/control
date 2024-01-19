@@ -9,6 +9,7 @@ Build-Depends:
  python3-all,
  python3-darkdetect,
  python3-poetry-core,
+ python3-qtpy,
  python3-setuptools
 Standards-Version: 4.6.2
 Homepage: https://github.com/5yutan5/PyQtDarkTheme
